@@ -13,8 +13,13 @@ def sum_all(*nums: int) -> int:
         total += n
     return total
 
+def print_user(**data: str) -> None:
+    for key, value in data.items():
+        print(key, value)
+
 if __name__ == "__main__":
     main()
     greet("Mohit")
     print("Addition", add(2,3))
     print("Sum of all numbers", sum_all(1,2,3,4))
+    print("Print User", print_user(name="Alice", age="25", city="Mumbai"))
