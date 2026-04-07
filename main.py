@@ -1,3 +1,5 @@
-print("Hello python from Mohit")
+def main() -> None:
+    print("Hello python", "From Mohit Jogiwala")
 
-print("Phase - 2", "Type Checking")
+if __name__ == "__main__":
+    main()
