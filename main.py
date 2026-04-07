@@ -22,4 +22,4 @@ if __name__ == "__main__":
     greet("Mohit")
     print("Addition", add(2,3))
     print("Sum of all numbers", sum_all(1,2,3,4))
-    print("Print User", print_user(name="Alice", age="25", city="Mumbai"))
+    print_user(name="Mohit", age=26, city="Surat")
