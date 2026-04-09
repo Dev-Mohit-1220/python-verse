@@ -14,4 +14,10 @@ def print_user(**data: str) -> None:
     for key, value in data.items():
         print(key, value)
 
+def is_even(num: int) -> bool:
+    return num % 2 == 0
+
+def filter_even(nums: list[int]) -> list[int]:
+    return [n for n in nums if n % 2 == 0]
+
 square = lambda x: x * x
