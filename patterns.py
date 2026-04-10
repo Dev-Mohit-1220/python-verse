@@ -21,3 +21,23 @@ def right_triangle_pattern(num: int) -> None:
         for j in range(i):
             print("*", end="")
         print()
+
+def reverse_pattern(num: int) -> None:
+    for i in range((num+1),0, -1):
+        for j in range(i):
+            print("*", end="")
+        print()
+
+def number_triangle(num: int) -> None:
+    for i in range(0, num+1):
+        for j in range (i):
+            print(j+1, end ="")
+        print()
+
+def floyd_triangle(num: int) -> None:
+    counter: int = 0
+    for i in range(0, num+1):
+        for j in range (i):
+            counter += 1
+            print(counter , " ",end ="")
+        print()
