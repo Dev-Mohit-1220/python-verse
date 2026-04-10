@@ -1,5 +1,5 @@
 from functions import add, sum_all, print_user, greet, square, is_even, filter_even
-from control_flow import check_number, max_number, grade, print_numbers, sum_n, count_down
+from control_flow import check_number, max_number, grade, print_numbers, sum_n, count_down, odd_nums, star_pattern
 
 def main() -> None:
     print("Hello python", "From Mohit Jogiwala")
@@ -14,7 +14,8 @@ def main() -> None:
     print("Max number", max_number(1,2,3,4,5))
     print("Grade", grade(105))
     print("Total",sum_n(20))
-    count_down(100000)
+    # odd_nums(1000)
+    star_pattern(5)
 
 if __name__ == "__main__":
     main()

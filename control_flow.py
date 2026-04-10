@@ -29,3 +29,13 @@ def count_down(value: int) -> None:
     while value > 0:
         print (value)
         value -= 1
+
+def odd_nums(value: int) -> None:
+    for i in range(1, value):
+        if(i%2 == 0):
+            continue
+        print(i)
+
+def star_pattern(n: int) -> None:
+    for i in range(1, n + 1):
+        print("*" * i)
