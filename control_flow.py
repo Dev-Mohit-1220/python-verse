@@ -38,4 +38,4 @@ def odd_nums(value: int) -> None:
 
 def star_pattern(n: int) -> None:
     for i in range(1, n + 1):
-        print("*" * i)
+        print("*" * (i + 1))
