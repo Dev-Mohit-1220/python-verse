@@ -1,6 +1,6 @@
 from functions import add, sum_all, print_user, greet, square, is_even, filter_even
 from control_flow import check_number, max_number, grade, print_numbers, sum_n, count_down, odd_nums, star_pattern
-from patterns import sqaure_pattern, print_num_in_rows, multiplication_pattern, right_triangle_pattern, reverse_pattern, number_triangle, floyd_triangle, pyramid_triangle, right_aligned_triangle, inverted_pyramid, number_pyramid
+from patterns import sqaure_pattern, print_num_in_rows, multiplication_pattern, right_triangle_pattern, reverse_pattern, number_triangle, floyd_triangle, pyramid_triangle, right_aligned_triangle, inverted_pyramid, number_pyramid, alphabetic_pattern
 
 def main() -> None:
     # print("Hello python", "From Mohit Jogiwala")
@@ -27,7 +27,8 @@ def main() -> None:
     # pyramid_triangle(4)
     # right_aligned_triangle(4)
     # inverted_pyramid(4)
-    number_pyramid(4)
+    # number_pyramid(4)
+    alphabetic_pattern(5)
 
 if __name__ == "__main__":
     main()

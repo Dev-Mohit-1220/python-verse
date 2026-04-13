@@ -77,3 +77,16 @@ def number_pyramid(num: int) -> None:
             else:
                 print(2*i-j, " ", end="")
         print()
+
+def alphabetic_pattern(num: int) -> None:
+    for i in range(1, num + 1):
+        for j in range(i):
+            print(chr(65 + j), " ", end="")
+        print()
+
+# left patterns
+"""
+  *   *
+ * * * *
+*   *   *
+"""
